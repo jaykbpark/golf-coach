@@ -7,11 +7,13 @@ This folder defines the initial product and technical blueprint for a golf swing
 1. `docs/product-vision.md`
 2. `docs/design-decisions.md`
 3. `docs/capture-spec.md`
-4. `docs/system-architecture.md`
-5. `docs/measurement-feedback.md`
-6. `docs/data-ml-evaluation.md`
-7. `docs/api-storage.md`
-8. `docs/roadmap.md`
+4. `docs/capture-quality-gate-spec.md`
+5. `docs/system-architecture.md`
+6. `docs/measurement-feedback.md`
+7. `docs/data-ml-evaluation.md`
+8. `docs/api-storage.md`
+9. `docs/implementation-checklist.md`
+10. `docs/roadmap.md`
 
 ## North Star
 
