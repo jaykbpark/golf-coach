@@ -16,35 +16,35 @@ Use this checklist as the execution plan for the first backend vertical slice.
 
 ## 0. Repo Bootstrap
 
-- [ ] Create backend folder structure:
-  - [ ] `backend/app/api/v1/`
-  - [ ] `backend/app/core/`
-  - [ ] `backend/app/db/`
-  - [ ] `backend/app/models/`
-  - [ ] `backend/app/schemas/`
-  - [ ] `backend/app/services/`
-  - [ ] `backend/app/workers/`
-  - [ ] `backend/alembic/`
-- [ ] Add `pyproject.toml` (or `requirements.txt`) with pinned dependencies.
-- [ ] Add `.env.example` with local defaults.
+- [x] Create backend folder structure:
+  - [x] `backend/app/api/v1/`
+  - [x] `backend/app/core/`
+  - [x] `backend/app/db/`
+  - [x] `backend/app/models/`
+  - [x] `backend/app/schemas/`
+  - [x] `backend/app/services/`
+  - [x] `backend/app/workers/`
+  - [x] `backend/alembic/`
+- [x] Add `pyproject.toml` (or `requirements.txt`) with pinned dependencies.
+- [x] Add `.env.example` with local defaults.
 
 ## 1. Docker Compose Infra
 
-- [ ] Add `docker-compose.yml` with:
-  - [ ] `postgres` (port 5432)
-  - [ ] `redis` (port 6379)
-  - [ ] `minio` (ports 9000/9001, optional but recommended)
-- [ ] Add healthchecks for each service.
-- [ ] Add named volumes for persistence.
-- [ ] Add helper commands in `Makefile`:
-  - [ ] `make infra-up`
-  - [ ] `make infra-down`
-  - [ ] `make infra-logs`
+- [x] Add `docker-compose.yml` with:
+  - [x] `postgres` (port 5432)
+  - [x] `redis` (port 6379)
+  - [x] `minio` (ports 9000/9001, optional but recommended)
+- [x] Add healthchecks for each service.
+- [x] Add named volumes for persistence.
+- [x] Add helper commands in `Makefile`:
+  - [x] `make infra-up`
+  - [x] `make infra-down`
+  - [x] `make infra-logs`
 
 ## 2. FastAPI App Skeleton
 
-- [ ] Create FastAPI app entrypoint (`backend/app/main.py`).
-- [ ] Add `/healthz` endpoint.
+- [x] Create FastAPI app entrypoint (`backend/app/main.py`).
+- [x] Add `/healthz` endpoint.
 - [ ] Add API router namespace `/v1`.
 - [ ] Add request ID middleware and structured logging.
 - [ ] Add config loader from env (`pydantic-settings`).

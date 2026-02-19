@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "golf-coach-backend"
+version = "0.1.0"
+description = "Backend API for golf swing analysis"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.116,<1.0",
+  "uvicorn[standard]>=0.35,<1.0",
+  "pydantic-settings>=2.10,<3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
