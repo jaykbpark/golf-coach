@@ -5,13 +5,20 @@ This backend runs as native Python processes, while infrastructure dependencies 
 ## Prerequisites
 
 - Python 3.12+
-- Docker + Docker Compose
+- Docker CLI + Docker Compose plugin + Colima
+
+One-time install:
+
+```bash
+brew install docker docker-compose colima
+```
 
 ## 1) Start Infra Services
 
 From repository root:
 
 ```bash
+colima start
 make infra-up
 make infra-ps
 ```
@@ -65,3 +72,5 @@ From repository root:
 make infra-logs
 make infra-down
 ```
+
+If Docker commands fail after a reboot/new session, run `colima start` first.
