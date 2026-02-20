@@ -64,6 +64,17 @@ Expected response:
 {"status":"ok"}
 ```
 
+OpenAPI docs:
+
+```text
+http://localhost:8000/docs
+```
+
+Current API routes:
+
+- `POST /v1/analyses`
+- `GET /v1/analyses/{analysis_id}`
+
 ## Infra Helpers
 
 From repository root:

@@ -12,9 +12,10 @@ This folder defines the initial product and technical blueprint for a golf swing
 6. `docs/measurement-feedback.md`
 7. `docs/data-ml-evaluation.md`
 8. `docs/api-storage.md`
-9. `docs/implementation-checklist.md`
-10. `docs/backend-scaffold-checklist.md`
-11. `docs/roadmap.md`
+9. `docs/api-v1-contract.md`
+10. `docs/implementation-checklist.md`
+11. `docs/backend-scaffold-checklist.md`
+12. `docs/roadmap.md`
 
 ## North Star
 

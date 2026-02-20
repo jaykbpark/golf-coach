@@ -1,5 +1,7 @@
 # API and Storage Design
 
+For the concrete first implementation contract, see `docs/api-v1-contract.md`.
+
 ## API Style
 
 - REST for V1 simplicity.

@@ -45,7 +45,7 @@ Use this checklist as the execution plan for the first backend vertical slice.
 
 - [x] Create FastAPI app entrypoint (`backend/app/main.py`).
 - [x] Add `/healthz` endpoint.
-- [ ] Add API router namespace `/v1`.
+- [x] Add API router namespace `/v1`.
 - [ ] Add request ID middleware and structured logging.
 - [ ] Add config loader from env (`pydantic-settings`).
 
